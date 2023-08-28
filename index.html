@@ -306,20 +306,18 @@
 
             <div class="tabs__wrap">
               <ul class="flex flex-wrap justify-center gap-3 py-10">
-                <li class="btn bg-primaryColorLight active">All</li>
-                <li class="btn bg-primaryColorLight">Food</li>
-                <li class="btn bg-primaryColorLight">Snack</li>
-                <li class="btn bg-primaryColorLight">Beverage</li>
+                <li data-tabs="all" class="btn bg-primaryColorLight active">All</li>
+                <li data-tabs="food" class="btn bg-primaryColorLight">Food</li>
+                <li data-tabs="snack" class="btn bg-primaryColorLight">Snack</li>
+                <li data-tabs="beverage" class="btn bg-primaryColorLight">Beverage</li>
               </ul>
             </div>
           </div>
 
           <div>
-            <ul
-              class="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-4 lg:gap-12"
-            >
+            <ul class="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-4 lg:gap-12">
               <!-- food 1-->
-              <li>
+              <li class="item_wrap food">
                 <div
                   class="h-56 grid place-items-center bg-primaryColorLight rounded-3xl hover:bg-secondaryColor ease-linear duration-200 lg:h-40"
                 >
@@ -339,9 +337,8 @@
                   <p class="text-secondaryColor">$42.00</p>
                 </div>
               </li>
-
               <!-- food 2-->
-              <li>
+              <li class="item_wrap food">
                 <div
                   class="h-56 grid place-items-center bg-primaryColorLight rounded-3xl hover:bg-secondaryColor ease-linear duration-200 lg:h-40"
                 >
@@ -361,9 +358,8 @@
                   <p class="text-secondaryColor">$42.00</p>
                 </div>
               </li>
-
               <!-- food 3 -->
-              <li>
+              <li class="item_wrap food">
                 <div
                   class="h-56 grid place-items-center bg-primaryColorLight rounded-3xl hover:bg-secondaryColor ease-linear duration-200 lg:h-40"
                 >
@@ -383,9 +379,8 @@
                   <p class="text-secondaryColor">$42.00</p>
                 </div>
               </li>
-
               <!-- food 4-->
-              <li>
+              <li class="item_wrap food">
                 <div
                   class="h-56 grid place-items-center bg-primaryColorLight rounded-3xl hover:bg-secondaryColor ease-linear duration-200 lg:h-40"
                 >
@@ -405,9 +400,8 @@
                   <p class="text-secondaryColor">$42.00</p>
                 </div>
               </li>
-
               <!-- food 5-->
-              <li>
+              <li class="item_wrap food">
                 <div
                   class="h-56 grid place-items-center bg-primaryColorLight rounded-3xl hover:bg-secondaryColor ease-linear duration-200 lg:h-40"
                 >
@@ -430,7 +424,7 @@
 
               <!-- snack -->
               <!-- food 1-->
-              <li>
+              <li class="item_wrap snack">
                 <div
                   class="h-56 grid place-items-center bg-primaryColorLight rounded-3xl hover:bg-secondaryColor ease-linear duration-200 lg:h-40"
                 >
@@ -450,9 +444,8 @@
                   <p class="text-secondaryColor">$42.00</p>
                 </div>
               </li>
-
               <!-- food 2-->
-              <li>
+              <li class="item_wrap snack">
                 <div
                   class="h-56 grid place-items-center bg-primaryColorLight rounded-3xl hover:bg-secondaryColor ease-linear duration-200 lg:h-40"
                 >
@@ -472,9 +465,8 @@
                   <p class="text-secondaryColor">$42.00</p>
                 </div>
               </li>
-
               <!-- food 3 -->
-              <li>
+              <li class="item_wrap snack">
                 <div
                   class="h-56 grid place-items-center bg-primaryColorLight rounded-3xl hover:bg-secondaryColor ease-linear duration-200 lg:h-40"
                 >
@@ -494,9 +486,8 @@
                   <p class="text-secondaryColor">$42.00</p>
                 </div>
               </li>
-
               <!-- food 4-->
-              <li>
+              <li class="item_wrap snack">
                 <div
                   class="h-56 grid place-items-center bg-primaryColorLight rounded-3xl hover:bg-secondaryColor ease-linear duration-200 lg:h-40"
                 >
@@ -516,9 +507,8 @@
                   <p class="text-secondaryColor">$42.00</p>
                 </div>
               </li>
-
               <!-- food 5-->
-              <li>
+              <li class="item_wrap snack">
                 <div
                   class="h-56 grid place-items-center bg-primaryColorLight rounded-3xl hover:bg-secondaryColor ease-linear duration-200 lg:h-40"
                 >
@@ -538,9 +528,8 @@
                   <p class="text-secondaryColor">$42.00</p>
                 </div>
               </li>
-
               <!-- food 6-->
-              <li>
+              <li class="item_wrap snack">
                 <div
                   class="h-56 grid place-items-center bg-primaryColorLight rounded-3xl hover:bg-secondaryColor ease-linear duration-200 lg:h-40"
                 >
@@ -564,7 +553,7 @@
               <!-- Beverage -->
 
               <!-- food 1-->
-              <li>
+              <li class="item_wrap beverage">
                 <div
                   class="h-56 grid place-items-center bg-primaryColorLight rounded-3xl hover:bg-secondaryColor ease-linear duration-200 lg:h-40"
                 >
@@ -584,9 +573,8 @@
                   <p class="text-secondaryColor">$42.00</p>
                 </div>
               </li>
-
               <!-- food 2-->
-              <li>
+              <li class="item_wrap beverage">
                 <div
                   class="h-56 grid place-items-center bg-primaryColorLight rounded-3xl hover:bg-secondaryColor ease-linear duration-200 lg:h-40"
                 >
@@ -606,9 +594,8 @@
                   <p class="text-secondaryColor">$42.00</p>
                 </div>
               </li>
-
               <!-- food 3 -->
-              <li>
+              <li class="item_wrap beverage">
                 <div
                   class="h-56 grid place-items-center bg-primaryColorLight rounded-3xl hover:bg-secondaryColor ease-linear duration-200 lg:h-40"
                 >
@@ -628,9 +615,8 @@
                   <p class="text-secondaryColor">$42.00</p>
                 </div>
               </li>
-
               <!-- food 4-->
-              <li>
+              <li class="item_wrap beverage">
                 <div
                   class="h-56 grid place-items-center bg-primaryColorLight rounded-3xl hover:bg-secondaryColor ease-linear duration-200 lg:h-40"
                 >
@@ -650,9 +636,8 @@
                   <p class="text-secondaryColor">$42.00</p>
                 </div>
               </li>
-
               <!-- food 5-->
-              <li>
+              <li class="item_wrap beverage">
                 <div
                   class="h-56 grid place-items-center bg-primaryColorLight rounded-3xl hover:bg-secondaryColor ease-linear duration-200 lg:h-40"
                 >
